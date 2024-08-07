@@ -16,7 +16,8 @@
 * les12 - If else. Конструкция логического выбора if. Лесенка if - else if. Примеры использования.
 
 ## Станадартные онструкции | шаблоны | templates
-`#include <iostream>
+
+#include <iostream>
 using namespace std;
 
 int main()
@@ -25,4 +26,5 @@ int main()
 
 /*
 cout << "\n";
-*/`
+*/
+
