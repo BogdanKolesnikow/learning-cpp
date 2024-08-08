@@ -37,3 +37,33 @@ cout << "\n";
 */
 ```
 2. 
+```/*Написать программу, которая находит сумму всех целых нечетных чисел в диапазоне, указанном пользователем.*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "ru");
+	int sum = 0;
+	int stsp, ensp;
+
+	cout << "Введите начало диапазона.\n";
+	cout << "Введите конец диапазона\n";
+
+	do
+	{
+		if (stsp% 2 != 0)
+		{
+			sum += stsp;
+		}
+
+		stsp++;
+	} while (stsp < ensp);
+
+}
+
+/*
+cout << "\n";
+*/
+```
